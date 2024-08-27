@@ -47,7 +47,7 @@ public class DBClass {
 		rs =stmt.executeQuery("select * from customers where customerNumber ="+ randomCustomerNumber);
 		while(rs.next()) {
 			int CustomerNumber = rs.getInt("customerNumber");
-			String CustomerName = rs.getNString("customerName");
+			String CustomerName = rs.getNString("contactFirstName");
 			System.out.println(CustomerNumber);
 			System.out.println(CustomerName);
 		}
@@ -56,7 +56,7 @@ public class DBClass {
 	@Test(priority = 3)
 	public void UpdateTest() throws SQLException {
 		stmt = con.createStatement();
-		int NumberofRowsUpdated = stmt.executeUpdate("update customers SET customerName = 'Noora' WHERE customerNumber ="+randomCustomerNumber);
+		int NumberofRowsUpdated = stmt.executeUpdate("update customers SET contactFirstName = 'Noora' WHERE customerNumber ="+randomCustomerNumber);
 		System.out.println(NumberofRowsUpdated);
 	}
 	////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -66,17 +66,17 @@ public class DBClass {
 		rs =stmt.executeQuery("select * from customers where customerNumber ="+ randomCustomerNumber);
 		while(rs.next()) {
 			int CustomerNumber = rs.getInt("customerNumber");
-			String CustomerName = rs.getNString("customerName");
+			String CustomerFirstName = rs.getNString("contactFirstName");
 			String CustomerLastName = rs.getNString("contactLastName");
 			System.out.println(CustomerNumber);
-			System.out.println(CustomerName);
+			System.out.println(CustomerFirstName);
 			
 			driver.get("https://magento.softwaretestingboard.com/");
 			WebElement ClickonCreateAccount =driver.findElement(By.linkText("Create an Account"));
 			ClickonCreateAccount.click();
 			WebElement FirstName =driver.findElement(By.id("firstname"));
 			WebElement LastName =driver.findElement(By.id("lastname"));
-			FirstName.sendKeys(CustomerName);
+			FirstName.sendKeys(CustomerFirstName);
 			LastName.sendKeys(CustomerLastName);
 			
 		}

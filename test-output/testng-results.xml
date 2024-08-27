@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-27T03:58:05 EET" name="Default suite" finished-at="2024-08-27T03:58:15 EET" duration-ms="9813">
+  <suite started-at="2024-08-27T04:12:50 EET" name="Default suite" finished-at="2024-08-27T04:12:55 EET" duration-ms="4756">
     <groups>
     </groups>
-    <test started-at="2024-08-27T03:58:05 EET" name="Default test" finished-at="2024-08-27T03:58:15 EET" duration-ms="9813">
+    <test started-at="2024-08-27T04:12:50 EET" name="Default test" finished-at="2024-08-27T04:12:55 EET" duration-ms="4756">
       <class name="MyPackage.DBClass">
-        <test-method is-config="true" signature="mysetup()[pri:0, instance:MyPackage.DBClass@52b56a3e]" started-at="2024-08-27T03:58:05 EET" name="mysetup" finished-at="2024-08-27T03:58:06 EET" duration-ms="339" status="PASS">
+        <test-method is-config="true" signature="mysetup()[pri:0, instance:MyPackage.DBClass@52b56a3e]" started-at="2024-08-27T04:12:50 EET" name="mysetup" finished-at="2024-08-27T04:12:50 EET" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mysetup -->
-        <test-method signature="InsertTest()[pri:1, instance:MyPackage.DBClass@52b56a3e]" started-at="2024-08-27T03:58:06 EET" name="InsertTest" finished-at="2024-08-27T03:58:06 EET" duration-ms="19" status="PASS">
+        <test-method signature="InsertTest()[pri:1, instance:MyPackage.DBClass@52b56a3e]" started-at="2024-08-27T04:12:51 EET" name="InsertTest" finished-at="2024-08-27T04:12:51 EET" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InsertTest -->
-        <test-method signature="SelectTest1()[pri:2, instance:MyPackage.DBClass@52b56a3e]" started-at="2024-08-27T03:58:06 EET" name="SelectTest1" finished-at="2024-08-27T03:58:06 EET" duration-ms="33" status="PASS">
+        <test-method signature="SelectTest1()[pri:2, instance:MyPackage.DBClass@52b56a3e]" started-at="2024-08-27T04:12:51 EET" name="SelectTest1" finished-at="2024-08-27T04:12:51 EET" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectTest1 -->
-        <test-method signature="UpdateTest()[pri:3, instance:MyPackage.DBClass@52b56a3e]" started-at="2024-08-27T03:58:06 EET" name="UpdateTest" finished-at="2024-08-27T03:58:06 EET" duration-ms="5" status="PASS">
+        <test-method signature="UpdateTest()[pri:3, instance:MyPackage.DBClass@52b56a3e]" started-at="2024-08-27T04:12:51 EET" name="UpdateTest" finished-at="2024-08-27T04:12:51 EET" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateTest -->
-        <test-method signature="SelectTest()[pri:4, instance:MyPackage.DBClass@52b56a3e]" started-at="2024-08-27T03:58:06 EET" name="SelectTest" finished-at="2024-08-27T03:58:15 EET" duration-ms="9371" status="PASS">
+        <test-method signature="SelectTest()[pri:4, instance:MyPackage.DBClass@52b56a3e]" started-at="2024-08-27T04:12:51 EET" name="SelectTest" finished-at="2024-08-27T04:12:55 EET" duration-ms="4330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectTest -->
-        <test-method signature="DeleteTest()[pri:5, instance:MyPackage.DBClass@52b56a3e]" started-at="2024-08-27T03:58:15 EET" name="DeleteTest" finished-at="2024-08-27T03:58:15 EET" duration-ms="7" status="PASS">
+        <test-method signature="DeleteTest()[pri:5, instance:MyPackage.DBClass@52b56a3e]" started-at="2024-08-27T04:12:55 EET" name="DeleteTest" finished-at="2024-08-27T04:12:55 EET" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteTest -->
